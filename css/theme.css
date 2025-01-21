@@ -93,7 +93,7 @@ body {
 /* line 76, ../sass/theme.scss */
 .pgl-navbar-main .navbar-collapse {
   border-color: transparent;
-  font-size: .857em;
+  font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -315,7 +315,7 @@ body {
 /* line 237, ../sass/theme.scss */
 .pgl-footer {
   background-color: #111;
-  color: #666666;
+  color: #afafaf;
   padding: 60px 0 20px;
 }
 

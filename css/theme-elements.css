@@ -112,6 +112,18 @@ blockquote footer:before {
   display: none;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 /* icons */
 /* line 71, ../sass/theme-elements.scss */
 .icons {
@@ -199,6 +211,7 @@ blockquote footer:before {
   color: #666666;
   height: 40px;
 }
+
 
 /* line 126, ../sass/theme-elements.scss */
 .form-control:focus {
